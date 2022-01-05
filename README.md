@@ -17,7 +17,12 @@
 - whoami  
 - touch readme  
 - mkdir test  
-14. vagrant halt  
+8. HISTFILESIZE - 627  
+  HISTSIZE - 630  
+  ignoreboth - это сокращение для ignorespace и ignoredups.  
+- ignorespace - строки, начинающиеся с пробела не сохраняются.  
+- ignoredups - строки, соответствующие предыдущей записи истории, не сохраняются.   
+9. vagrant halt  
 
     
     
