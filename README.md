@@ -22,7 +22,21 @@
   ignoreboth - это сокращение для ignorespace и ignoredups.  
 - ignorespace - строки, начинающиеся с пробела не сохраняются.  
 - ignoredups - строки, соответствующие предыдущей записи истории, не сохраняются.   
-9. vagrant halt  
+9. строка: 206.  
+Выполняется в текущей среде оболочки. Выполняет подстановку элементов из списка. {list;}   
+10. touch {1..100000}.txt  
+  максимум: 116098 файлов. Больше нельзя, слишком длинный список аргументов
+11. проверяет наличие каталога /tmp. 1 или 0 (true, false)  
+12. vagrant@vagrant:~$ mkdir /tmp/new_path_directory/  
+vagrant@vagrant:~$ cp /bin/bash /tmp/new_path_directory/  
+vagrant@vagrant:~$ PATH=/tmp/new_path_directory/:$PATH  
+vagrant@vagrant:~$ type -a bash  
+bash is /tmp/new_path_directory/bash  
+bash is /usr/bin/bash  
+bash is /bin/bash  
+13. at – это утилита командной строки, которая позволяет планировать выполнение команд в определенное время.  
+batch - ланирует задания и выполняет их в очереди пакетов, когда позволяет уровень загрузки системы. По умолчанию задания выполняются, когда средняя загрузка системы ниже 1,5.  
+14. vagrant halt  
 
     
     
